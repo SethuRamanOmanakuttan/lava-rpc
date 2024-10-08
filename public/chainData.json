@@ -1,0 +1,92 @@
+{
+  "Axelar": {
+    "icon": "https://logosandtypes.com/wp-content/uploads/2024/02/axelar.svg",
+    "Mainnet": {
+      "name": "AXELAR",
+      "services": {
+        "tendermint-rpc": "https://tm.axelar.lava.build",
+        "tendermint-rpc-websocket": "wss://tm.axelar.lava.build/websocket",
+        "rest": "https://rest.axelar.lava.build",
+        "grpc": "grpc.axelar.lava.build"
+      }
+    },
+    "Testnet": {
+      "name": "AXELART",
+      "services": {
+        "tendermint-rpc": "https://tm.axelar-testnet.lava.build",
+        "tendermint-rpc-websocket": "wss://tm.axelar-testnet.lava.build/websocket",
+        "rest": "https://rest.axelar-testnet.lava.build",
+        "grpc": "grpc.axelar-testnet.lava.build"
+      }
+    }
+  },
+  "Cosmos Hub": {
+    "icon": "https://cryptologos.cc/logos/cosmos-atom-logo.svg",
+    "Mainnet": {
+      "name": "COSMOSHUB",
+      "services": {
+        "tendermint-rpc": "https://cosmoshub.tendermintrpc.lava.build",
+        "tendermint-rpc-websocket": "wss://cosmoshub.tendermintrpc.lava.build/websocket",
+        "rest": "https://cosmoshub.rest.lava.build",
+        "grpc": "cosmoshub.grpc.lava.build"
+      }
+    }
+  },
+  "Evmos": {
+    "icon": "https://assets.coingecko.com/coins/images/24023/standard/evmos.png",
+    "Mainnet": {
+      "name": "EVMOS",
+      "services": {
+        "tendermint-rpc": "https://tm.evmos.lava.build",
+        "tendermint-rpc-websocket": "wss://tm.evmos.lava.build/websocket",
+        "json-rpc": "https://evmos.lava.build",
+        "json-rpc-websocket": "wss://evmos.lava.build/websocket",
+        "rest": "https://rest.evmos.lava.build",
+        "web-grpc": "https://grpc.evmos.lava.build",
+        "grpc": "grpc.evmos.lava.build:443"
+      }
+    },
+    "Testnet": {
+      "name": "EVMOST",
+      "services": {
+        "tendermint-rpc": "https://tm.evmos-testnet.lava.build",
+        "tendermint-rpc-websocket": "wss://tm.evmos-testnet.lava.build/websocket",
+        "json-rpc": "https://evmos-testnet.lava.build",
+        "json-rpc-websocket": "wss://evmos-testnet.lava.build/websocket",
+        "rest": "https://rest.evmos-testnet.lava.build",
+        "web-grpc": "https://grpc.evmos-testnet.lava.build",
+        "grpc": "grpc.evmos-testnet.lava.build:443"
+      }
+    }
+  },
+  "NEAR": {
+    "icon": "https://cryptologos.cc/logos/near-protocol-near-logo.svg?v=035",
+    "Mainnet": {
+      "name": "NEAR",
+      "services": {
+        "json-rpc": "https://near.lava.build"
+      }
+    },
+    "Testnet": {
+      "name": "NEART",
+      "services": {
+        "json-rpc": "https://near-testnet.lava.build"
+      }
+    }
+  },
+  "Starknet": {
+    "icon": "https://cryptologos.cc/logos/starknet-token-strk-logo.svg?v=035",
+    "Mainnet": {
+      "name": "STRK",
+      "services": {
+        "json-rpc": "https://rpc.starknet.lava.build"
+      }
+    },
+    "Testnet": {
+      "name": "STRKT",
+      "services": {
+        "json-rpc": "https://rpc.starknet-testnet.lava.build"
+      }
+    }
+  }
+}
