@@ -33,7 +33,7 @@ function AppContent() {
       >
         <div className='container mx-auto flex justify-between items-center'>
           <h1 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-600'>
-            Incentivized Public RPC{" "}
+            Lava Incentivized Public RPC{" "}
           </h1>
           <button
             onClick={toggleTheme}
